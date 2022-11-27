@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Retro Cars - 2022</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Copyright" content="Retro Cars - 2022">
+	<meta name="robots" content="all">
+
+
+	<!-- Slick slider -->
+	<link rel="stylesheet" href="libs/slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="libs/slick-1.8.1/slick/slick-theme.css">
+
+	<link rel="stylesheet" href="css/preloader.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/mobile-menu.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" href="libs/wow/animate.css"/>
+	
+	<script src="libs/wow/wow.min.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
+
+</head>
+<body>
+    <noscript>Пожалуйста включите javascript!!</noscript>
+	
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="mobile-nav">
+            <ul class="mobile-ul">
+                <li><a class="toggle" href="#screens" id="news">Новости</a></li>
+                <li><a class="toggle" href="#how_to_work" id="search">Поиск</a></li>
+                <li><a class="toggle" href="#pricing" id="partners">Партнеры</a></li>
+                <li><a class="toggle toggle-popup" id="contact">Связаться</a></li>
+            </ul>
+        </div>
+		<div class="lang-menu lang-menu-mobile">
+			<div class="selected-lang" id="lang">Россия</div>
+				<ul>
+				<li>
+					<a onclick="setLanguage('de')" class="de">Deutschland</a>
+				</li>
+				<li>
+					<a onclick="setLanguage('en-usa')" class="en-usa">USA</a>
+				</li>
+				<li>
+					<a onclick="setLanguage('kz')" class="kz">Казахстан</a>
+				</li>
+				<li>
+					<a onclick="setLanguage('by')" class="by">Беларусь</a>
+				</li>
+			</ul>
+								
+		</div>
+		<div class="mobile-under-h"><img src="assets/images/horizontal_white_logo.svg" width="120px" alt=""></div>
+    </div>
+
+
+
+
+    <header class="header-main nav-float wow fadeIn" data-wow-delay="2s">
+        <div class="container space-between">
+            <div class="header-main--logo">
+				<h1>Retro car</h1>
+                <!-- <img src="assets/images/logo.svg" alt="AppUp logotype"> -->
+            </div>
+            
+			<div class="space-between">
+				<nav class="header-main--navigation">
+					<a href="#news_s" class="header-main__nav-item" id="news">Новости</a>
+					<a href="#search_s" class="header-main__nav-item" id="search">Поиск</a>
+					<a href="#partners_s" class="header-main__nav-item" id="partners">Партнеры</a>
+					<a class="header-main__nav-item toggle-popup" id="contact">Связаться</a>
+				</nav>
+				<div class="lang-menu">
+					<div class="selected-lang" id="lang">Россия</div>
+						<ul>
+						<li>
+							<a onclick="setLanguage('de')" class="de">Deutschland</a>
+						</li>
+						<li>
+							<a onclick="setLanguage('en-usa')" class="en-usa">USA</a>
+						</li>
+						<li>
+							<a onclick="setLanguage('kz')" class="kz">Казахстан</a>
+						</li>
+						<!-- <li>
+							<a onclick="setLanguage('by')" class="by">Беларусь</a>
+						</li>
+						<li>
+							<a onclick="setLanguage('tj')" class="tj">Таджикистан</a>
+						</li> -->
+						<li>
+							<a onclick="setLanguage('ru')" class="ru">Россия</a>
+						</li>
+					</ul>
+										
+				</div>
+				<nav class="navigator navigator-mobile">
+					<button class="menu toggle" onclick="this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" aria-expanded="true">
+						<svg width="50" height="50" viewBox="0 0 100 100">
+						  <path class="line line1 line-black" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+						  <path class="line line2 line-black" d="M 20,50 H 80"></path>
+						  <path class="line line3 line-black" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+						</svg>
+					  </button>
+				</nav>
+			</div>
+        </div>
+    </header>
+
+
+
+    <section class="section_main">
+        <div class="slide_main slide_main_first">
+            <div class="container slide_main__wrapper">
+                <h2 class="slide_main__h2 wow fadeInLeft" id="main_text_1"  data-wow-delay="2s">Выставка <br> <span>Retro</span> Cars - <br>2022</h2>
+                <div class="slide_main__row_btns wow fadeIn"  data-wow-delay="2s">
+                    <a class="red_btn slide_main__red_btn" id="about_us">О НАС</a>
+                    <a class="white_btn" id="more">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide_main slide_main_second">
+            <div class="container slide_main__wrapper">
+                <h2 class="slide_main__h2 wow fadeInLeft" id="main_text_2"  data-wow-delay="2s">Машины <br> <span>Retro</span> из <br>30-90 годов</h2>
+                <div class="slide_main__row_btns wow fadeIn"  data-wow-delay="2s">
+                    <a class="red_btn slide_main__red_btn" id="about_us">О НАС</a>
+                    <a class="white_btn" id="more">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide_main slide_main_third">
+            <div class="container slide_main__wrapper">
+                <h2 class="slide_main__h2 wow fadeInLeft" id="main_text_3"  data-wow-delay="2s">Топ 1 <br> <span>Retro</span> выставка<br>в мире</h2>
+                <div class="slide_main__row_btns wow fadeIn"  data-wow-delay="2s">
+                    <a class="red_btn slide_main__red_btn" id="about_us">О НАС</a>
+                    <a class="white_btn" id="more">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_white" id="search_s">
+        <input class="search_input wow fadeInUp" type="text" id="ph_search" placeholder="Поиск">
+    </section>
+
+
+    <section class="news_section" id="news_s">
+        <div class="container">
+            <h2 class="news__h2 h2_style_black wow fadeInLeft" id="news_text">Свежие <span>новости</span></h2>
+        </div>
+        <div class="news_slider wow fadeInUp">
+            <div class="news_slider__slide">
+                <div class="news_slider__slide__image"></div>
+                <div class="news_slider__slide__row_items">
+                    <div class="news_slider__slide__text">
+                        Retro car новость, Lorem ipsum dolor sit 
+                    </div>
+                    <a class="news_slider__slide__btn" id="more2">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+            <div class="news_slider__slide">
+                <div class="news_slider__slide__image news_slider__slide__image2"></div>
+                <div class="news_slider__slide__row_items">
+                    <div class="news_slider__slide__text">
+                        Retro car новость, Lorem ipsum dolor sit 
+                    </div>
+                    <a class="news_slider__slide__btn" id="more2">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+            <div class="news_slider__slide">
+                <div class="news_slider__slide__image news_slider__slide__image3"></div>
+                <div class="news_slider__slide__row_items">
+                    <div class="news_slider__slide__text">
+                        Retro car новость, Lorem ipsum dolor sit 
+                    </div>
+                    <a class="news_slider__slide__btn" id="more2">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+            <div class="news_slider__slide">
+                <div class="news_slider__slide__image news_slider__slide__image4"></div>
+                <div class="news_slider__slide__row_items">
+                    <div class="news_slider__slide__text">
+                        Retro car новость, Lorem ipsum dolor sit 
+                    </div>
+                    <a class="news_slider__slide__btn" id="more2">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="partners_section" id="partners_s">
+        <div class="container">
+            <h2 class="partners__h2 h2_style_white wow fadeInLeft" id="partners_text">Наши <span>партнеры</span></h2>
+
+            <div class="partners__row_block">
+                <div class="partners__row__item partners__row__item_toyota wow fadeInLeft">
+                    <div class="partners__row__item_hover"  id="more">
+                        ПОДРОБНЕЕ
+                    </div>
+                </div>
+                <div class="partners__row__item partners__row__item_bmw wow fadeInUp">
+                    <div class="partners__row__item_hover"  id="more">
+                        ПОДРОБНЕЕ
+                    </div>
+                </div>
+                <div class="partners__row__item partners__row__item_merc wow fadeInRight">
+                    <div class="partners__row__item_hover"  id="more">
+                        ПОДРОБНЕЕ
+                    </div>
+                </div>
+            </div>
+            <div class="partners__row_block">
+                <div class="partners__row__item partners__row__item_lamb wow fadeInLeft">
+                    <div class="partners__row__item_hover"  id="more">
+                        ПОДРОБНЕЕ
+                    </div>
+                </div>
+                <div class="partners__row__item partners__row__item_buggati wow fadeInUp">
+                    <div class="partners__row__item_hover"  id="more">
+                        ПОДРОБНЕЕ
+                    </div>
+                </div>
+                <div class="partners__row__item partners__row__item_ferrari  wow fadeInRight">
+                    <div class="partners__row__item_hover"  id="more">
+                        ПОДРОБНЕЕ
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="section_white">
+        <a href="https://ticketon.kz" class="red_btn ticker_btn wow fadeInUp" id="buy_ticket">КУПИТЬ БИЛЕТ</a>
+    </section>
+    <div id="map" class="map"></div>
+
+
+
+
+
+    <footer class="section footer">
+		<div class="social-nets">
+			<a href="mailto:test@mail.ru">
+				<div class="social-block">
+					<i class="far fa-envelope" style="color: #AFAFAF;"></i>
+				</div>
+			</a>
+            <a href="https://twitter.com/">
+				<div class="social-block">
+                    <i class="fab fa-twitter" style="color: #24ACF2;"></i>
+				</div>
+			</a>
+			<a href="https://wa.me/">
+				<div class="social-block">
+					<i class="fab fa-whatsapp" style="color: #0DC143;"></i>
+				</div>
+			</a>
+			<a href="https://www.instagram.com/">
+				<div class="social-block">
+					<i class="fab fa-instagram" style="color: #D12E90"></i>
+				</div>
+			</a>
+		</div>
+
+		<div class="copyright">
+			<p>2021 - 2022 © Retro Car. Design by Daryn Akishev.</p>
+		</div>
+	</footer>
+
+
+
+
+    <div class="popup-wrapper ">
+		<div class="popup-request">
+			<div class="h-block-black">
+				<h1 class="block-h__h1-black" id="contact_form">Обратная связь</h1>
+			</div>
+
+			<form class="popup-request__form">
+				<input type="hidden" name="project_name" value="RetroCar">
+				<input type="hidden" name="admin_email" value="RetroCar@RetroCar.kz">
+				<input type="hidden" name="form_subject" value="Обратная связь">
+
+				<input type="text" name="name" placeholder="Ваше имя" id="ph_your_name" required>
+				<input type="text" name="number" placeholder="Ваш номер" id="ph_your_phone" required>
+				<input type="email" name="email" placeholder="E-mail" required>
+				<textarea rows="4" name="message" placeholder="Комментарий.." id="ph_comment" required></textarea>
+				<button type="submit" class="popup-request__btn" id="leave_request">ОСТАВИТЬ ЗАЯВКУ</button>
+			</form>
+		</div>
+		<div class="popup-toggle-zone toggle-popup">
+		</div>
+	</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=280d67e0-e9e9-428f-baee-cd11699581f7&lang=ru_RU" type="text/javascript"></script>
+	<script type="text/javascript" src="scripts/multi_language.js"></script>
+	<script type="text/javascript" src="libs/slick-1.8.1/slick/slick.min.js"></script>
+	
+	<script type="text/javascript" src="scripts/preloader.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/map.js"></script>
+	<script type="text/javascript" src="scripts/sliders.js"></script>
+</body>
+</html>
