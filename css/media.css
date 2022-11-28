@@ -40,6 +40,13 @@
     .slide_main__h2{
         text-align: center;
     }
+
+    .timer__text{
+        display: none;
+    }
+    .timer{
+        padding: 12px 25px 12px 20px;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -101,6 +108,19 @@
         margin: 0 5px;
     }
     .news_slider__slide__text{
+        font-size: 16px;
+    }
+
+
+
+    .timer{
+        right: 10px;
+        left: 10px;
+        bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .timer__text_time{
         font-size: 16px;
     }
 }

@@ -26,6 +26,14 @@ langsData = {
         "partners_text": "Наши <span>партнеры</span>",
         "buy_ticket": "КУПИТЬ БИЛЕТ",
         "contact_form": "Обратная связь",
+
+
+        "days_text": "дней",
+        "hours_text": "часа",
+        "minutes_text": "минут",
+        "seconds_text": "сек.",
+
+        "left_t": "Осталось:"
     },
     'en-usa': {
         "lang": "USA",
@@ -53,6 +61,15 @@ langsData = {
         "partners_text": "Our <span>partners</span>",
         "buy_ticket": "BUY A TICKET",
         "contact_form": "Feedback",
+
+
+
+        "days_text": "days", 
+        "hours_text": "hours", 
+        "minutes_text": "min", 
+        "seconds_text": "sec.",
+
+        "left_t": "Remaining:"
     },
     'de': {
         
@@ -83,6 +100,18 @@ langsData = {
         "partners_text": "Unsere <span>Partner</span>",
         "buy_ticket": "EIN TICKET KAUFEN",
         "contact_form": "Feedback",
+
+
+
+
+        "days_text": "tage", 
+        "hours_text": "stunden", 
+        "minutes_text": "minuten", 
+        "seconds_text": "sek.",
+
+
+
+        "left_t": "Rest:"
     },
     'kz': {
         "lang": "Казахстан",
@@ -114,6 +143,16 @@ langsData = {
         "buy_ticket": "БИЛЕТ САТЫП АЛ",
         "contact_form": "Кері байланыс",
 
+
+
+
+        "days_text": "күн", 
+        "hours_text": "сағат", 
+        "minutes_text": "минут", 
+        "seconds_text": "сек.",
+        
+
+        "left_t": "Қалды:"
     },
 }
 
